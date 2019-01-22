@@ -1,0 +1,32 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Firt Story Book Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "keywords": [
+    "story-book"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishank/first-storybook-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Krishank/first-storybook-project/issues"
+  },
+  "homepage": "https://github.com/Krishank/first-storybook-project#readme",
+  "author": "Krishank Dwivedi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/react": "^4.1.7",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
